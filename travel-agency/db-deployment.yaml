@@ -16,7 +16,6 @@ spec:
       labels:
         app: mysqldb
         version: v1
-      annotations:
     spec:
       containers:
         - name: mysqldb
