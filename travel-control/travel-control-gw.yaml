@@ -8,7 +8,7 @@ metadata:
 spec:
   servers:
     - hosts:
-        - travel-control.apps.cluster-f54kc.f54kc.sandbox1154.opentlc.com
+        - control.travel-control.${CLUSTER_BASE_DOMAIN}
       port:
         name: http
         number: 80
